@@ -46,8 +46,8 @@ Tener instalado **Python 3.8** o superior.
 
 ### 1. Clonar el Repositorio e Instalar Dependencias
 ```bash
-git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
-cd TU_REPOSITORIO
+git clone https://github.com/cvalera03/Limpiador-de-Medios-Corruptos.git
+cd Limpiador-de-Medios-Corruptos
 pip install -r requirements.txt
 ```
 
@@ -104,6 +104,7 @@ Si deseas usar esta aplicación en computadoras donde **no está instalado Pytho
 ├── build_exe.py               # Script de compilación a ejecutable portable (.EXE)
 ├── Ejecutar_Limpiador.bat     # Lanzador directo para Windows
 ├── requirements.txt           # Dependencias Python (Pillow, OpenCV)
+├── LICENSE                    # Licencia Open Source (MIT)
 ├── .gitignore                 # Archivo de exclusión para Git
 └── README.md                  # Documentación del proyecto
 ```
@@ -112,4 +113,4 @@ Si deseas usar esta aplicación en computadoras donde **no está instalado Pytho
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+Este proyecto es Open Source y está licenciado bajo la **[Licencia MIT](LICENSE)**. Eres libre de usarlo, modificarlo y distribuirlo libremente.
