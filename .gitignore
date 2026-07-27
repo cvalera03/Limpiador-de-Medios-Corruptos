@@ -1,0 +1,34 @@
+# Python / Byte-compiled / Optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# PyInstaller / Build outputs
+build/
+dist/
+*.spec
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Application runtime outputs & temporary folders
+reporte_limpieza_corruptos.txt
+_Archivos_Corruptos/
