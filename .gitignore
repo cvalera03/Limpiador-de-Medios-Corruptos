@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 *.so
 
-# PyInstaller / Build outputs
+# PyInstaller / Executable build outputs
 build/
 dist/
 *.spec
@@ -14,10 +14,8 @@ venv/
 .venv/
 env/
 ENV/
-env.bak/
-venv.bak/
 
-# IDE & Editor files
+# IDE & Editor configuration
 .vscode/
 .idea/
 *.swp
@@ -28,7 +26,10 @@ venv.bak/
 .DS_Store
 Thumbs.db
 ehthumbs.db
+desktop.ini
 
-# Application runtime outputs & temporary folders
-reporte_limpieza_corruptos.txt
+# Reports and runtime output directories
+reporte_*.txt
 _Archivos_Corruptos/
+_Archivos_Reparados/
+_Archivos_No_Reparables/
